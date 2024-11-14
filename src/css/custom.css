@@ -1,0 +1,86 @@
+/* Overall Theme */
+:root {
+  --ifm-background-color: #020202; /* Dark background */
+  --ifm-background-color-secondary: #030303; /* Slightly lighter background */
+  --ifm-font-color-base: #e0e0e0;  /* Light text for contrast */
+
+  --ifm-color-primary: #623cea; /* Blurple */
+  --ifm-color-primary-dark: #5435c9; 
+  --ifm-color-primary-darker: #4a2dad;
+  --ifm-color-primary-darkest: #392185;
+  --ifm-color-primary-light: #7c53f8;
+  --ifm-color-primary-lighter: #9475ff;
+  --ifm-color-primary-lightest: #b6a8ff;
+
+  --ifm-color-secondary: #ffd700; /* Yellowish */
+  --ifm-color-secondary-dark: #e6bf00;
+  --ifm-color-secondary-darker: #ccac00;
+  --ifm-color-secondary-darkest: #b39900;
+  --ifm-color-secondary-light: #ffe033;
+  --ifm-color-secondary-lighter: #ffe766;
+  --ifm-color-secondary-lightest: #fff5cc;
+  background-color: var(--ifm-background-color-secondary);
+}
+
+/* Typography */
+body {
+  font-family: 'Vollkorn', sans-serif; /* Modern font */
+  background-color: var(--ifm-background-color-secondary);
+}
+
+/* Only headings are bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Slightly bolder headings */
+}
+
+p {
+  font-weight: 400;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--ifm-background-color); /* Blurple navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.navbar__link {
+  color: white;
+}
+
+.card {
+  color: var(--ifm-font-color-base); /* Light text */
+  background-color: var(--ifm-background-color-secondary); /* Dark card background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.navbar__link--active {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Hero Section */
+.heroBanner {
+  background: linear-gradient(to bottom right, var(--ifm-color-primary), var(--ifm-color-secondary)); /* Blurple to Yellow gradient */
+}
+
+/* Call to Action Buttons */
+.button {
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: var(--ifm-color-secondary); /* Yellowish hover */
+}
+
+/* Code Blocks */
+code {
+  background-color: #222; /* Darker code block background */
+  border-radius: 4px;   /* Slightly rounded corners */
+  padding: 2px 4px;     /* Subtle padding */
+}
+
+/* Additional Styling (Optional) */
+.footer {
+  background-color: var(--ifm-background-color); /* Blurple navbar */
+}

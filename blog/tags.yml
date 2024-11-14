@@ -1,0 +1,24 @@
+announcement:
+  label: announcement
+  permalink: /announcement
+  description: Announcement tag description
+alpha:
+  label: alpha
+  permalink: /alpha
+  description: Alpha version
+beta:
+  label: beta
+  permalink: /beta
+  description: Beta version
+release:
+  label: release
+  permalink: /release
+  description: Release version
+bug:
+  label: bug
+  permalink: /bug
+  description: Bug tag description
+fix:
+  label: fix
+  permalink: /fix
+  description: Fix tag description
